@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".depressionHelpline"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginHorizontal="8dp"
+            android:id="@+id/layout1"
+            >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="72dp"
+                android:layout_height="180dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/chatbot" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="165dp"
+                android:layout_height="180dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingTop="60dp"
+                android:text="For all the millions who feel depressed or anxious, there’s help and empathy a click away"
+                android:textColor="#2f2f2f"
+                android:textSize="18sp"
+
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button17"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rectangle"
+            android:text="Chatbot"
+            android:onClick="chatbot"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="8dp"
+        android:id="@+id/layout2"
+        >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="283dp"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingTop="30dp"
+            android:text=" If you're depressed and need someone to talk to, calling a hotline can help you make sense of your problems and give you some perspective when life seems out of control."
+            android:textColor="#2f2f2f"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="142dp"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/phonepic" />
+    </LinearLayout>
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rectangle"
+            android:text="Phone a Friend"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:onClick="friend"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="8dp"
+        android:id="@+id/layout3"
+        >
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="40dp"
+            android:layout_height="190dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/braintwo" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="74dp"
+            android:layout_height="190dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingTop="60dp"
+            android:text=" One-on-one sessions can help you identify specific stresses and triggers that worsen your depression. "
+            android:textColor="#2f2f2f"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/rectangle"
+            android:text="Apply for Therapy"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/akronim</item>
+        <item>@font/arima_madurai_medium</item>
+        <item>@font/bad_script</item>
+        <item>@font/condiment</item>
+        <item>@font/days_one</item>
+        <item>@font/griffy</item>
+        <item>@font/vibur</item>
+    </array>
+</resources>

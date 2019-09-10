@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ess">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".screenshot"
+
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".callAfriend"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".newPassword"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainAct" />
+        <activity
+            android:name=".navigationDrawer"
+            android:label="@string/title_activity_navigation_drawer" />
+        <activity
+            android:name=".MapActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCpl5uI5dQGS3udu076u6whNvr-g-cEtv8" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".otpCheck"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".depressionHelpline"
+            android:theme="@style/drawerTheme" />
+        <activity
+            android:name=".MainWindow"
+            android:theme="@style/drawerTheme" />
+        <activity
+            android:name=".forgotpass2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".forgotPass"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".signup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

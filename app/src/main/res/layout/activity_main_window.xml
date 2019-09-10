@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:clipToPadding="true"
+    tools:context=".MainWindow" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/heading"
+            android:text="Speed Dials"
+            android:textColor="#2E2E2E"
+            android:textSize="24sp"
+            android:paddingTop="4dp"
+            android:paddingLeft="120dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="8dp">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:drawableTop="@drawable/hosp"
+                android:onClick="hospital"
+                android:text="Hospital"
+                android:textColor="#2E2E2E" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:drawableTop="@drawable/police"
+                android:onClick="police"
+                android:text="police"
+                android:textColor="#2E2E2E" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:drawableTop="@drawable/ambul"
+                android:onClick="ambulance"
+                android:text="ambulance"
+                android:textColor="#2E2E2E" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:drawableTop="@drawable/firetruck"
+                android:onClick="fire"
+                android:text="fire"
+                android:textColor="#2E2E2E"
+                />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="8dp"
+        android:background="#ffffff">
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/women"
+            android:onClick="women"
+            android:text="Women Helpline"
+            android:textColor="#2E2E2E" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/hang"
+            android:onClick="hang"
+            android:text="Suicide Helpline"
+            android:textColor="#2E2E2E" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/boy"
+            android:onClick="boy"
+            android:text="Child Helpline"
+            android:textColor="#2E2E2E" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/wild"
+            android:onClick="snake"
+            android:text="Wildlife Support"
+            android:textColor="#2E2E2E" />
+
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="#9B9B9B"
+            android:layout_marginTop="8dp"
+
+            />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rectangle"
+            android:onClick="dep"
+            android:text="Depression and Anxiety"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="4dp"
+
+            android:fontFamily="sans-serif-smallcaps"
+            android:padding="4dp"
+            android:text="This helpline is dedicated to depression and anxiety peer support. The main forms of communication we offer are via our supportive Depression Chat Rooms, Depression Phone Calls and our Therapy Sessions."
+            android:textColor="#2f2f2f"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="#9B9B9B"
+            android:layout_marginTop="6dp"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/rectangle"
+                android:text="Nearby emergency Locations"
+                android:textColor="#ffffff"
+                android:textSize="21sp" />
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/mapimage" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginTop="4dp"
+
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="4dp"
+                android:text="Find Nearby Emergency Locations by tapping on the Location button or  Map icon."
+                android:textColor="#2f2f2f"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.DrawerLayout>
